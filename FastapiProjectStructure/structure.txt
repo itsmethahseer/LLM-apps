@@ -1,0 +1,12 @@
+project/
+├── main.py  # Main app with FastAPI()
+├── routers/
+│   ├── users.py  # User-related routes with APIRouter
+│   ├── products.py  # Product-related routes with APIRouter
+│   └── orders.py  # Order-related routes with APIRouter
+├── models/
+│   ├── user_model.py
+│   ├── product_model.py
+│   └── order_model.py
+└── utils/
+    └── db.py  # Database connection logic
